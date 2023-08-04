@@ -136,9 +136,31 @@ footer {
     min-height: 15vh;
     background-color: rgb(246, 181, 96);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-size: .75rem;
     margin-top: auto;
 }
 
+.ninjaFooter {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.divisor {
+    width: 16rem;
+    height: 0.02rem;
+    border: 0.5px solid black;
+}
+
+.reserved {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.5rem;
+}
+
+.dev {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.70rem;
+}
